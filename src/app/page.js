@@ -71,7 +71,7 @@ const Page = () => {
           <Button
             type="primary"
             className="bg-[#054FB9] !text-white border-none flex justify-center rounded-l-[20px] rounded-r-[20px] w-[150px]"
-            htmlType="submit" // Triggers form validation & onFinish
+            htmlType="submit"
             loading={loading}
           >
             Login
